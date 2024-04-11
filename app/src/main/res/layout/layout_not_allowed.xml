@@ -1,0 +1,87 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="340dp"
+    android:layout_height="250dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:layout_marginStart="18dp"
+    android:layout_marginEnd="18dp"
+    app:cardCornerRadius="14dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Identification"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="@string/access_denied_you_are_not_authorized_to_enter_this_area"/>
+
+        <TextView
+            android:id="@+id/foundFromEpc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+
+
+        <!--        <com.airbnb.lottie.LottieAnimationView-->
+<!--            android:id="@+id/verifiedAnimationView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:lottie_fileName="verified.json"-->
+<!--            app:lottie_autoPlay="false"-->
+<!--            app:lottie_loop="false" />-->
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/delete_button"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="8dp"
+        android:text="Unauthorized"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/red"
+        android:layout_gravity="bottom|end"/>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EventMangeament</string>
+    <string name="mudit_srivastava">Mudit Srivastava</string>
+    <string name="chapter_name">Chapter Name:</string>
+    <string name="category">Category:</string>
+    <string name="company_name">Company Name:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="email">Email:</string>
+    <string name="status">Status:</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="write_fail">Write Failed</string>
+    <string name="read_fail">Read Failed</string>
+    <string name="set_lock">Lock</string>
+    <string name="set_epc">EPC</string>
+    <string name="set_password">Password</string>
+    <string name="dialog_module_none">Module does not exist</string>
+    <string name="low_power">Low power UHF is forbidden</string>
+    <string name="high_temp">High temperature UHF is forbidden</string>
+    <string name="congratulation">"This guest has been successfully verified.</string>
+    <string name="access_denied_you_are_not_authorized_to_enter_this_area">Access Denied: You are not authorized to enter this area.</string>
+</resources>
